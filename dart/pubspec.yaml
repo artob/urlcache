@@ -1,0 +1,15 @@
+# See: https://dart.dev/tools/pub/pubspec
+---
+name: urlcache
+version: 0.0.0
+description: >-
+  URLcache is a deduplicating HTTP cache layered on top of Bitcache content-addressable storage.
+homepage: https://github.com/artob/urlcache
+repository: https://github.com/artob/urlcache
+issue_tracker: https://github.com/artob/urlcache/issues
+dev_dependencies:
+  distrib: ^0.0.0
+  lints: ^6.0.0
+  test: ^1.25.0
+environment:
+  sdk: ^3.11.0

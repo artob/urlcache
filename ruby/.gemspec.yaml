@@ -1,0 +1,143 @@
+--- !ruby/object:Gem::Specification
+name: urlcache
+version: !ruby/object:Gem::Version
+  version: 0.0.0
+platform: ruby
+authors:
+- Arto Bendiken
+bindir: bin
+cert_chain: []
+date: 2026-08-29 00:00:00.000000000 Z
+dependencies:
+- !ruby/object:Gem::Dependency
+  name: rb_sys
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - ">="
+      - !ruby/object:Gem::Version
+        version: '0'
+  type: :runtime
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - ">="
+      - !ruby/object:Gem::Version
+        version: '0'
+- !ruby/object:Gem::Dependency
+  name: distrib
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '0'
+  type: :development
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '0'
+- !ruby/object:Gem::Dependency
+  name: rake
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '13'
+  type: :development
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '13'
+- !ruby/object:Gem::Dependency
+  name: rake-compiler
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '1.3'
+  type: :development
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '1.3'
+- !ruby/object:Gem::Dependency
+  name: rspec
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '3.13'
+  type: :development
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '3.13'
+- !ruby/object:Gem::Dependency
+  name: yard
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '0.9'
+  type: :development
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: '0.9'
+description: URLcache is a deduplicating HTTP cache layered on top of Bitcache content-addressable
+  storage.
+email:
+- arto@bendiken.net
+executables: []
+extensions:
+- ext/urlcache/extconf.rb
+extra_rdoc_files: []
+files:
+- AUTHORS
+- CHANGES.md
+- README.md
+- UNLICENSE
+- VERSION
+- ext/urlcache/Cargo.toml
+- ext/urlcache/build.rs
+- ext/urlcache/extconf.rb
+- ext/urlcache/src/lib.rs
+- lib/urlcache.rb
+- lib/urlcache/version.rb
+homepage: https://github.com/artob/urlcache
+licenses:
+- Unlicense
+metadata:
+  source_code_uri: https://github.com/artob/urlcache
+  bug_tracker_uri: https://github.com/artob/urlcache/issues
+  changelog_uri: https://github.com/artob/urlcache/blob/master/CHANGES.md
+  documentation_uri: https://rubydoc.info/gems/urlcache
+  homepage_uri: https://github.com/artob/urlcache
+rdoc_options: []
+require_paths:
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - ">="
+    - !ruby/object:Gem::Version
+      version: '4.0'
+required_rubygems_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - ">="
+    - !ruby/object:Gem::Version
+      version: '0'
+requirements: []
+rubygems_version: 4.0.16
+specification_version: 4
+summary: URLcache for Ruby
+test_files: []
+
