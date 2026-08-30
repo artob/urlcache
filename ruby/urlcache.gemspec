@@ -4,7 +4,7 @@ require 'distrib/ruby/gemspec'
 
 Distrib::Ruby::Gemspec.build!(__FILE__) do |gemspec|
   gemspec.summary     = "URLcache for Ruby"
-  gemspec.description = "URLcache is a deduplicating HTTP cache layered on top of Bitcache content-addressable storage."
+  gemspec.description = "URLcache fetches HTTP responses with deduped offline caching layered on top of Bitcache content-addressable storage."
   gemspec.homepage    = "https://github.com/artob/urlcache"
   gemspec.metadata    = {
     :source_code_uri  => "https://github.com/artob/urlcache",

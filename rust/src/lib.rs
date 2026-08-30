@@ -1,6 +1,6 @@
 // This is free and unencumbered software released into the public domain.
 
-//! URLcache is a deduplicating HTTP cache layered on top of Bitcache content-addressable storage.
+//! URLcache fetches HTTP responses with deduped offline caching layered on top of Bitcache content-addressable storage.
 
 #![no_std]
 #![allow(unused)]

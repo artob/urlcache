@@ -4,7 +4,7 @@
 [![Compatibility](https://img.shields.io/badge/typescript-5.4%2B-blue)](https://typescriptlang.org/docs/handbook/release-notes/typescript-5-4.html)
 [![Package on NPM](https://img.shields.io/npm/v/urlcache.js)](https://npmjs.com/package/urlcache.js)
 
-**URLcache is a deduplicating HTTP cache layered on top of Bitcache content-addressable storage.**
+**URLcache fetches HTTP responses with deduped offline caching layered on top of Bitcache content-addressable storage.**
 
 <sub>
 

@@ -4,7 +4,7 @@
 [![Compatibility](https://img.shields.io/badge/python-3.14%2B-blue)](https://endoflife.date/python)
 [![Package on PyPI](https://img.shields.io/pypi/v/urlcache.py)](https://pypi.org/project/urlcache.py)
 
-**URLcache is a deduplicating HTTP cache layered on top of Bitcache content-addressable storage.**
+**URLcache fetches HTTP responses with deduped offline caching layered on top of Bitcache content-addressable storage.**
 
 <sub>
 

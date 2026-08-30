@@ -14,7 +14,7 @@ authors:
 repository-code: https://github.com/artob/urlcache
 url: https://github.com/artob/urlcache
 abstract: >-
-  URLcache is a deduplicating HTTP cache layered on top of Bitcache content-addressable storage.
+  URLcache fetches HTTP responses with deduped offline caching layered on top of Bitcache content-addressable storage.
 keywords:
   - urlcache
   - content-addressable

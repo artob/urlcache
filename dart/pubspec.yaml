@@ -3,7 +3,7 @@
 name: urlcache
 version: 0.0.0
 description: >-
-  URLcache is a deduplicating HTTP cache layered on top of Bitcache content-addressable storage.
+  URLcache fetches HTTP responses with deduped offline caching layered on top of Bitcache content-addressable storage.
 homepage: https://github.com/artob/urlcache
 repository: https://github.com/artob/urlcache
 issue_tracker: https://github.com/artob/urlcache/issues

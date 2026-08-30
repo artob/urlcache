@@ -5,7 +5,7 @@ use clientele::{
     crates::clap::{Parser, Subcommand},
 };
 
-/// URLcache is a deduplicating HTTP cache layered on top of Bitcache content-addressable storage.
+/// URLcache fetches HTTP responses with deduped offline caching layered on top of Bitcache content-addressable storage.
 #[derive(Debug, Parser)]
 #[command(name = "URLcache", long_about)]
 #[command(arg_required_else_help = true)]

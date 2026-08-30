@@ -5,7 +5,7 @@
 [![Package on Crates.io](https://img.shields.io/crates/v/urlcache)](https://crates.io/crates/urlcache)
 [![Documentation](https://img.shields.io/docsrs/urlcache?label=docs.rs)](https://docs.rs/urlcache)
 
-**URLcache is a deduplicating HTTP cache layered on top of Bitcache content-addressable storage.**
+**URLcache fetches HTTP responses with deduped offline caching layered on top of Bitcache content-addressable storage.**
 
 <sub>
 

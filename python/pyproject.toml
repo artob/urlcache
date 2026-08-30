@@ -7,7 +7,7 @@ build-backend = "uv_build"
 
 [project]
 name = "urlcache.py"
-description = "URLcache is a deduplicating HTTP cache layered on top of Bitcache content-addressable storage."
+description = "URLcache fetches HTTP responses with deduped offline caching layered on top of Bitcache content-addressable storage."
 readme = "README.md"
 authors = [{ name = "Arto Bendiken", email = "arto@bendiken.net" }]
 license = "Unlicense"

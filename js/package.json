@@ -1,7 +1,7 @@
 {
   "name": "urlcache.js",
   "version": "0.0.0",
-  "description": "URLcache is a deduplicating HTTP cache layered on top of Bitcache content-addressable storage.",
+  "description": "URLcache fetches HTTP responses with deduped offline caching layered on top of Bitcache content-addressable storage.",
   "homepage": "https://github.com/artob/urlcache",
   "repository": {
     "type": "git",

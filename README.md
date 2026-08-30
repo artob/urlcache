@@ -7,7 +7,7 @@
 [![Package on PyPI](https://img.shields.io/pypi/v/urlcache.py)](https://pypi.org/project/urlcache.py)
 [![Package on RubyGems](https://img.shields.io/gem/v/urlcache)](https://rubygems.org/gems/urlcache)
 
-**URLcache is a deduplicating HTTP cache layered on top of Bitcache content-addressable storage.**
+**URLcache fetches HTTP responses with deduped offline caching layered on top of Bitcache content-addressable storage.**
 
 <sub>
 

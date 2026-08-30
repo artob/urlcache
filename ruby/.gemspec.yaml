@@ -93,8 +93,8 @@ dependencies:
     - - "~>"
       - !ruby/object:Gem::Version
         version: '0.9'
-description: URLcache is a deduplicating HTTP cache layered on top of Bitcache content-addressable
-  storage.
+description: URLcache fetches HTTP responses with deduped offline caching layered
+  on top of Bitcache content-addressable storage.
 email:
 - arto@bendiken.net
 executables: []

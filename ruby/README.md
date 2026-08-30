@@ -5,7 +5,7 @@
 [![Package on RubyGems](https://img.shields.io/gem/v/urlcache)](https://rubygems.org/gems/urlcache)
 [![Documentation](https://img.shields.io/badge/rubydoc-latest-blue)](https://rubydoc.info/gems/urlcache)
 
-**URLcache is a deduplicating HTTP cache layered on top of Bitcache content-addressable storage.**
+**URLcache fetches HTTP responses with deduped offline caching layered on top of Bitcache content-addressable storage.**
 
 <sub>
 

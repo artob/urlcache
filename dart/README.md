@@ -5,7 +5,7 @@
 [![Package on Pub.dev](https://img.shields.io/pub/v/urlcache)](https://pub.dev/packages/urlcache)
 [![Documentation](https://img.shields.io/badge/docs-passing-green)](https://pub.dev/documentation/urlcache)
 
-**URLcache is a deduplicating HTTP cache layered on top of Bitcache content-addressable storage.**
+**URLcache fetches HTTP responses with deduped offline caching layered on top of Bitcache content-addressable storage.**
 
 <sub>
 
